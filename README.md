@@ -30,3 +30,5 @@ Desain Datamart
 
 Tabel analisa adalah tabel yang berisi data asli yang sudah menjadi satu dengan aggregat dengan beberapa kolom yaitu 'presentase_gross_laba', 'nett_profit', dan 'nett_sales'. 
 
+
+
