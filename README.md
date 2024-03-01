@@ -30,5 +30,8 @@ Desain Datamart
 
 Tabel analisa adalah tabel yang berisi data asli yang sudah menjadi satu dengan aggregat dengan beberapa kolom yaitu 'presentase_gross_laba', 'nett_profit', dan 'nett_sales'. 
 
+**Query Tabel Analisa**
+
+![query tabel analisa dan agregat](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/fa914e41-dd1c-4047-a8b7-a44ee85f42f3)
 
 
