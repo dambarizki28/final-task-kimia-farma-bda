@@ -1,5 +1,6 @@
 
-### **Big Data Analytics Kimia Farma x Rakamin Academy Batch February 2024**
+**Big Data Analytics Kimia Farma x Rakamin Academy Batch February 2024**
+--- 
 
 Tool: Google BigQuery - [Lihat Script SQL](https://github.com/dambarizki28/final-task-kimia-farma-bda/blob/main/query-final-task.sql.txt)
 
@@ -33,5 +34,17 @@ Tabel analisa adalah tabel yang berisi data asli yang sudah menjadi satu dengan 
 **Query Tabel Analisa**
 
 ![query tabel analisa dan agregat](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/fa914e41-dd1c-4047-a8b7-a44ee85f42f3)
+
+**Hasil Tabel Analsia**
+
+![Screenshot 2024-03-01 112045](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/65ca036d-b27a-4375-924f-57c36336cf14)
+
+![Screenshot 2024-03-01 112937](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/86f5607e-165a-4f6e-aadf-acec54ef904b)
+
+![Screenshot 2024-03-01 113003](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/789c516f-9c71-4c1b-b08f-74ca826d1907)
+
+![Screenshot 2024-03-01 113037](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/f2e9c40b-f259-4083-9efd-6a7164ecb60a)
+
+Kemudian, dalam salah satu challenge di dashboard visualization terdapat perintah untuk membuat visualisasi perbandingan pendapatan Kimia Farma dari tahun ke tahun. Maka, yang saya lakukan adalah membuat query untuk tabel 'total_revenue'. Maka syntaxnya seperti gambar di bawah ini:
 
 
