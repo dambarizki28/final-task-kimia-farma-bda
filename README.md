@@ -47,4 +47,16 @@ Tabel analisa adalah tabel yang berisi data asli yang sudah menjadi satu dengan 
 
 Kemudian, dalam salah satu challenge di dashboard visualization terdapat perintah untuk membuat visualisasi perbandingan pendapatan Kimia Farma dari tahun ke tahun. Maka, yang saya lakukan adalah membuat query untuk tabel 'total_revenue'. Maka syntaxnya seperti gambar di bawah ini:
 
+![image](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/b5a10d24-04d6-4f6f-9007-0c0588ee63e0)
 
+Dengan syntax di atas maka akan menghasilkan tabel 'total_revenue' sebagai berikut
+
+![Table total revenue](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/b8a93733-ea17-4662-84b0-a8c0a7432596)
+
+
+Visualisasi Data
+---
+
+[Lihat visualisasi data disini](https://lookerstudio.google.com/reporting/c96de68a-a685-4da6-a80a-6ea799e4fa6e)
+
+![Damba_RF_-_Final_Task_Kimia_Farma_Performance_Analytics-1](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/cc17accd-fa4e-4b36-a9e9-f3692d181125)
