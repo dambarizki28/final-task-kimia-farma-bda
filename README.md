@@ -35,7 +35,7 @@ Tabel analisa adalah tabel yang berisi data asli yang sudah menjadi satu dengan 
 
 ![query tabel analisa dan agregat](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/fa914e41-dd1c-4047-a8b7-a44ee85f42f3)
 
-**Hasil Tabel Analsia**
+**Hasil Tabel Analisa**
 
 ![Screenshot 2024-03-01 112045](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/65ca036d-b27a-4375-924f-57c36336cf14)
 
