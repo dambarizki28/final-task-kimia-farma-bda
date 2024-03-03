@@ -11,7 +11,7 @@ Dataset: [PBI Kimia Farma x Rakamin Academy](https://www.rakamin.com/virtual-int
 
 Program Introduction
 ---
-Project Based Internship (PBI) adalah sebuah program magang virtual dari Rakamin Academy yang berkolaborasi dengan perusahaan yang bertujuan menggali potensi dan menambah pengalaman bagi peserta PBI. Dalam program ini, saya berperan sebagai Big Data Analytics di Kimia Farma yang menganalisis dan melaporkan data mengenai Performance Analytics Kimia Farma di Tahun 2020 - 2023.
+Project Based Internship (PBI) adalah sebuah program magang virtual dari Rakamin Academy yang berkolaborasi dengan beberapa perusahaan yang bertujuan menggali potensi dan menambah pengalaman bagi peserta PBI. Dalam program ini, saya berperan sebagai Big Data Analytics di Kimia Farma yang menganalisis dan melaporkan data mengenai Performance Analytics Kimia Farma di Tahun 2020 - 2023.
 
 **Challenge**
 - Membuat tabel analisa
