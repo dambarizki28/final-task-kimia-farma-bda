@@ -54,9 +54,19 @@ Dengan syntax di atas maka akan menghasilkan tabel 'total_revenue' sebagai berik
 ![Table total revenue](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/b8a93733-ea17-4662-84b0-a8c0a7432596)
 
 
+
+
 Visualisasi Data
 ---
 
 [Lihat visualisasi data disini](https://lookerstudio.google.com/reporting/c96de68a-a685-4da6-a80a-6ea799e4fa6e)
 
 ![Damba_RF_-_Final_Task_Kimia_Farma_Performance_Analytics-1](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/cc17accd-fa4e-4b36-a9e9-f3692d181125)
+
+
+From the visualization data that has been made, there are several insights obtained:
+
+- Kimia Farma's highest revenue is in 2022 amounting to IDR 80,578,445,844.
+- West Papua Province is the province with the least number of Kimia Farma branches with 14 branches.
+- The highest total net sales were achieved by West Java Province with total net sales of Rp 94,869,594,875.
+- The lowest revenue by product was achieved by the category of other anagelsics and antipyretics, pyrazolones and anilides.
