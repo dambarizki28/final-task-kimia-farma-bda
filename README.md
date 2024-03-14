@@ -34,7 +34,48 @@ Tabel analisa adalah tabel yang berisi data asli yang sudah menjadi satu dengan 
 **Query Tabel Analisa**
 
 
-![query tabel analisa dan agregat](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/fa914e41-dd1c-4047-a8b7-a44ee85f42f3)
+```sql
+-- Membuat tabel analisa
+
+CREATE TABLE dataset_kimia_farma.analytic_table AS
+SELECT 
+    ft.transaction_id,
+    ft.date, 
+    ft.branch_id, 
+    kc.branch_name,
+    kc.kota,
+    kc.provinsi,
+    kc.rating,
+    ft.customer_name,
+    p.product_id,
+    p.product_name,
+    ft.price,
+    ft.discount_percentage,
+CASE
+  WHEN ft.price <= 50000 THEN 0.10
+  WHEN ft.price > 50000 - 100000 THEN 0.15
+  WHEN ft.price > 100000 - 300000 THEN 0.20
+  WHEN ft.price > 300000 - 500000 THEN 0.25
+  WHEN ft.price > 500000 THEN 0.30
+ELSE 0.30
+END AS presentase_gross_laba, 
+(ft.price - (ft.price * ft.discount_percentage)) AS nett_sales,
+(ft.price * (1 - ft.discount_percentage) * CASE
+                                              WHEN ft.price <= 50000 THEN 0.10
+                                              WHEN ft.price > 50000 - 100000 THEN 0.15
+                                              WHEN ft.price > 100000 - 300000 THEN 0.20
+                                              WHEN ft.price > 300000 - 500000 THEN 0.25
+                                              WHEN ft.price > 500000 THEN 0.30
+                                            ELSE 0.30
+                                              END) AS nett_profit,
+ft.rating AS rating_transaksi
+FROM 
+    dataset_kimia_farma.kf_final_transaction AS ft 
+LEFT JOIN 
+    dataset_kimia_farma.kf_kantor_cabang AS kc ON ft.branch_id = kc.branch_id
+LEFT JOIN 
+    dataset_kimia_farma.kf_product AS p ON ft.product_id = p.product_id;
+```
 
 **Hasil Tabel Analisa**
 
@@ -50,7 +91,13 @@ Tabel analisa adalah tabel yang berisi data asli yang sudah menjadi satu dengan 
 
 Kemudian, dalam salah satu challenge di dashboard visualization terdapat perintah untuk membuat visualisasi perbandingan pendapatan Kimia Farma dari tahun ke tahun. Maka, yang saya lakukan adalah membuat query untuk tabel 'total_revenue'. Maka syntaxnya seperti gambar di bawah ini:
 
-![image](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/b5a10d24-04d6-4f6f-9007-0c0588ee63e0)
+```sql
+CREATE TABLE dataset_kimia_farma.total_revenue_per_year AS
+SELECT EXTRACT(YEAR FROM date) AS year, SUM(nett_sales) AS total_revenue
+FROM dataset_kimia_farma.analytic_table
+GROUP BY year
+ORDER BY year;
+```
 
 Dengan syntax di atas maka akan menghasilkan tabel 'total_revenue' sebagai berikut
 
