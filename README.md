@@ -79,8 +79,6 @@ LEFT JOIN
 
 **Hasil Tabel Analisa**
 
-
-
 ![Screenshot 2024-03-01 112045](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/65ca036d-b27a-4375-924f-57c36336cf14)
 
 ![Screenshot 2024-03-01 112937](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/86f5607e-165a-4f6e-aadf-acec54ef904b)
