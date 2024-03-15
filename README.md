@@ -118,3 +118,9 @@ From the visualization data that has been made, there are several insights obtai
 - West Papua Province is the province with the least number of Kimia Farma branches with 14 branches.
 - The highest total net sales were achieved by West Java Province with total net sales of Rp 94,869,594,875.
 - The lowest revenue by product was achieved by the category of other anagelsics and antipyretics, pyrazolones and anilides.
+
+From the insights above, we can take some strategies:
+
+- Increase total revenue significantly because after reaching the highest total revenue in 2022, the total revenue in 2023 actually decreased.
+- Expanding branches in West Papua province so that there is branch equality of Kimia Farma facilities there.
+- Intensify the promotion of other anagelsics and antipyretics, pyrazolones and anilides drugs so that they can be sold more optimally
