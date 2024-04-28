@@ -112,15 +112,15 @@ Visualisasi Data
 ![Damba_RF_-_Final_Task_Kimia_Farma_Performance_Analytics-1](https://github.com/dambarizki28/final-task-kimia-farma-bda/assets/161567903/cc17accd-fa4e-4b36-a9e9-f3692d181125)
 
 
-From the visualization data that has been made, there are several insights obtained:
+Dari data visualisasi yang telah dibuat, terdapat beberapa insight yang didapatkan:
 
-- Kimia Farma's highest revenue is in 2022 amounting to IDR 80,578,445,844.
-- West Papua Province is the province with the least number of Kimia Farma branches with 14 branches.
-- The highest total net sales were achieved by West Java Province with total net sales of Rp 94,869,594,875.
-- The lowest revenue by product was achieved by the category of other anagelsics and antipyretics, pyrazolones and anilides.
+- Pendapatan tertinggi Kimia Farma adalah pada tahun 2022 sebesar Rp 80.578.445.844.
+- Provinsi Papua Barat merupakan provinsi dengan jumlah cabang Kimia Farma paling sedikit dengan jumlah 14 cabang.
+- Total penjualan bersih tertinggi diraih oleh Provinsi Jawa Barat dengan total penjualan bersih sebesar Rp 94.869.594.875.
+- Pendapatan terendah berdasarkan produk dicapai oleh kategori anagelsik dan antipiretik lainnya, pirazolon dan anilida.
 
-From the insights above, we can take some strategies:
+Dari gambaran di atas, kita dapat mengambil beberapa strategi:
 
-- Increase total revenue significantly because after reaching the highest total revenue in 2022, the total revenue in 2023 actually decreased.
-- Expanding branches in West Papua province so that there is branch equality of Kimia Farma facilities there.
-- Intensify the promotion of other anagelsics and antipyretics, pyrazolones and anilides drugs so that they can be sold more optimally
+- Meningkatkan total pendapatan secara signifikan karena setelah mencapai total pendapatan tertinggi di tahun 2022, total pendapatan di tahun 2023 justru mengalami penurunan.
+- Memperbanyak cabang di provinsi Papua Barat agar terjadi pemerataan fasilitas Kimia Farma di sana.
+- Mengintensifkan promosi obat anagelsik dan antipiretik, pirazolon dan anilida lainnya agar dapat terjual lebih optimal
